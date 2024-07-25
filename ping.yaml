@@ -1,0 +1,5 @@
+-name : ping yaml
+ hosts: web
+ task :
+  ansible.builtin.ping
+  
