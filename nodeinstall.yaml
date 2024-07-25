@@ -1,5 +1,5 @@
 - name: installnode
-  host: node
+  hosts: node
   become: yes
   tasks:
    - name: installing nginx
