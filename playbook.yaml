@@ -3,4 +3,5 @@
   tasks:
   - name: ping server
     ansible.builtin.ping:
+    echo "hai"
 
